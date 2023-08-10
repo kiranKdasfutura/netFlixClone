@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import Banner from './COMPONENTS/BANNER/Banner';
+import NaveBar from './COMPONENTS/NAV_BAR/NaveBar';
+import Rowposter from './COMPONENTS/RowPoster/Rowposter';
+import { API_KEY, NOW_PLAYING, POPULAR, UPCOMING }from './COMPONENTS/TmdbGlobels/Tmdb'
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NaveBar/>
+      <Banner/>
+      <Rowposter title={'Upcoming'} apiurl={UPCOMING+API_KEY} />
+      <Rowposter title={'Trending'} apiurl={NOW_PLAYING+API_KEY} isSmall />
+      <Rowposter title={'Top rated series'} apiurl={POPULAR+API_KEY} isSmall />
+
+
+
     </div>
   );
 }

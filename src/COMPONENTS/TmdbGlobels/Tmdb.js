@@ -1,0 +1,7 @@
+export const TMBD_LINK='https://api.themoviedb.org/3/movie/11?api_key='
+export const API_KEY='41bb6dd168471471a2bcdb651c26a79c'
+    //  --url 'https://api.themoviedb.org/3/movie/11?api_key=41bb6dd168471471a2bcdb651c26a79c'
+export const IMG_EXTENTION='https://image.tmdb.org/t/p/w500/'
+export const UPCOMING='https://api.themoviedb.org/3/movie/upcoming?api_key='
+export const NOW_PLAYING='https://api.themoviedb.org/3/movie/now_playing?api_key='
+export const POPULAR='https://api.themoviedb.org/3/tv/top_rated?api_key='

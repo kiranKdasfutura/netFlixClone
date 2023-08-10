@@ -1,0 +1,56 @@
+.banner {
+  /* background-image: url('https://m.media-amazon.com/images/I/91txlu5NEfL.jpg'); */
+  padding-top: 100px;
+  color: white;
+  background-size: cover;
+  background-position: center;
+  z-index: 1;
+  opacity: .6;
+}
+
+.content {
+  height: 595px;
+  padding: 50px;
+  display: grid;
+  width: 500px;
+  opacity: 1;
+  /* position: fixed; */
+
+}
+.content h1 {
+  padding: 5px;
+}
+.content h5 {
+  width: 400px;
+  opacity: 80%;
+  line-height: 1.5rem;
+}
+.banner-buttons button {
+  margin: 1rem;
+}
+.gradient-banner {
+  /* position: relative; */
+  /* z-index: 1; */
+  position: relative;
+  top: -70px;
+
+  height: 9rem;
+  background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37),
+    #1111
+  );
+}
+.carousel-shadow{
+ /* padding: 200px; */
+  /* background-image: linear-gradient(
+    180deg,
+    transparent,
+    rgb(37, 37, 37),
+    #1111
+  ); */
+  background-color: red;
+  width: 500px; ;
+  border-radius: 10px;
+}

@@ -1,0 +1,43 @@
+.poster{
+    padding-top: 50px;
+    color: white;
+}
+
+.poster-imgs{
+    padding: -20px;
+  
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.poster-small{
+    padding: 30px;
+  
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.poster-imgs::-webkit-scrollbar{
+    display: none;
+}
+.poster-small::-webkit-scrollbar{
+    display: none;
+}
+h2{
+    padding-left: 60px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding-top: 20px; */
+    /* margin-bottom: 200px; */
+    /* margin-top: 10px; */
+    
+}
+.poster-imgs img{
+    width: 400px;
+    margin: 10px;
+}
+.poster-small img{
+    width: 200px;
+    margin: 10px; 
+}
